@@ -11,7 +11,7 @@ import java.util.List;
 public class Main {
     public static void main(String[] args) {
 
-        Path path = Paths.get("/home/damian/Desktop/Intellij-Coursework/topsify-DamianMacG/reports/users.json");
+        Path path = Paths.get("reports", "users.json");
 
         // Print to see its right
 //        System.out.println("Path to users.json: " + path.toAbsolutePath());

@@ -15,7 +15,8 @@ document.addEventListener('DOMContentLoaded', function () {
 
 // Function to create user cards and add them to the DOM
 function displayUsers(container, users) {
-  const defaultImage = 'https://img.a.transfermarkt.technology/portrait/big/177907-1663841733.jpg?lm=1'
+  const defaultImage = 'https://img.a.transfermarkt.technology/portrait/big/177907-1663841733.jpg?lm=1';
+
   users.forEach(user => {
     const userCard = document.createElement('div');
     userCard.className = 'user-card';
@@ -26,6 +27,11 @@ function displayUsers(container, users) {
     // Set the avatar image, or use the default image if avatar is missing or empty
     userAvatar.src = user.avatar ? user.avatar : defaultImage;
     userAvatar.alt = `${user.first_name} ${user.last_name}`;
+
+    // Handle error if avatar URL fails to load, fallback to default image
+    userAvatar.onerror = function() {
+      this.src = defaultImage;
+    };
 
     const userName = document.createElement('h3');
     userName.className = 'user-card__name';
