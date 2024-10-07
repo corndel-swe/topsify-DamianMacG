@@ -17,7 +17,7 @@ public class Main {
         Path path = Paths.get("/home/damian/Desktop/Intellij-Coursework/topsify-DamianMacG/reports/users.json");
 
         // Print to see its right
-        System.out.println("Path to users.json: " + path.toAbsolutePath());
+//        System.out.println("Path to users.json: " + path.toAbsolutePath());
 
         ObjectMapper objectMapper = new ObjectMapper();
 
@@ -52,8 +52,10 @@ public class Main {
             e.printStackTrace();
         }
     }
+
+    // Method to replace names that have single quotes with two - SQL no like single quotes
     private static String escapeSingleQuotes(String value) {
-        return value.replace("'", "''"); // Replace single quote with two single quotes
+        return value.replace("'", "''");
     }
 }
 
