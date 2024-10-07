@@ -3,10 +3,7 @@ package org.example;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
-import java.io.BufferedWriter;
-import java.io.File;
-import java.io.FileWriter;
-import java.io.IOException;
+import java.io.*;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.List;
@@ -29,7 +26,7 @@ public class Main {
             Path sqlPath = Paths.get("/home/damian/Desktop/Intellij-Coursework/topsify-DamianMacG/db/seeds/users.sql");
 
             // Write the INSERT statements to the SQL file using BufferedWriter
-            try (BufferedWriter writer = new BufferedWriter(new FileWriter(sqlPath.toFile()))) {
+            try (FileWriter writer = new FileWriter(sqlPath.toFile())) {
                 for (User user : users) {
                     String insertStatement = String.format(
                             "INSERT INTO users VALUES(%d, '%s', '%s', '%s', '%s', '%s', '%s');",
@@ -41,8 +38,7 @@ public class Main {
                             escapeSingleQuotes(user.getAvatar()),
                             escapeSingleQuotes(user.getPassword())
                     );
-                    writer.write(insertStatement);
-                    writer.newLine();
+                    writer.write(insertStatement + System.lineSeparator()); // Write the statement to the file
                 }
 
                 // Let's print and see if it worked!
