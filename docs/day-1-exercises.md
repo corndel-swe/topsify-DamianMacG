@@ -27,27 +27,27 @@ save them into .txt files.
   ./test.sh
   ```
 
-- [ ] Commit and push!
+- [x] Commit and push!
 
-- [ ] Read the docs on
+- [x] Read the docs on
       [selecting with conditions](https://tech-docs.corndel.com/sql/select-queries.html)
 
-- [ ] Complete `exercises/1b.sql` in the same way we did `1a.sql`
+- [x] Complete `exercises/1b.sql` in the same way we did `1a.sql`
 
 ## Exercise 2: Ordering results
 
-- [ ] Read the docs on
+- [x] Read the docs on
       [ordering results](https://tech-docs.corndel.com/sql/ordering-results.html)
 
-- [ ] Complete `exercises/2a.sql`
+- [x] Complete `exercises/2a.sql`
 
-- [ ] Complete `exercises/2b.sql`
+- [x] Complete `exercises/2b.sql`
 
 ## Exercise 3: Paginating results
 
-- [ ] Read the docs on
+- [x] Read the docs on
       [paginating results](https://tech-docs.corndel.com/sql/limit-offset.html)
 
-- [ ] Complete `exercises/3a.sql`
+- [x] Complete `exercises/3a.sql`
 
-- [ ] Complete `exercises/3b.sql`
+- [x] Complete `exercises/3b.sql`
