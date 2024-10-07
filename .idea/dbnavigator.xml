@@ -25,10 +25,10 @@
   </component>
   <component name="DBNavigator.Project.DatabaseFileManager">
     <open-files>
-      <object connection-id="370e97b3-6961-4712-9070-831de4fd108b" object-ref="schemas/main/tables/features" />
       <object connection-id="370e97b3-6961-4712-9070-831de4fd108b" object-ref="schemas/main/tables/albums" />
-      <object connection-id="370e97b3-6961-4712-9070-831de4fd108b" object-ref="schemas/main/tables/artists" />
       <object connection-id="370e97b3-6961-4712-9070-831de4fd108b" object-ref="schemas/main/tables/tracks" />
+      <object connection-id="370e97b3-6961-4712-9070-831de4fd108b" object-ref="schemas/main/tables/features" />
+      <object connection-id="370e97b3-6961-4712-9070-831de4fd108b" object-ref="schemas/main/tables/artists" />
     </open-files>
   </component>
   <component name="DBNavigator.Project.DatabaseSessionManager">
