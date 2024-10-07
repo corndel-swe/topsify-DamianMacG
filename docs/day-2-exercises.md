@@ -17,13 +17,13 @@ functionality out of the database.
 - [x] Read the docs on
       [aggregate queries](https://tech-docs.corndel.com/sql/aggregate-queries.html)
 
-- [ ] Complete `exercises/5a.sql`
+- [x] Complete `exercises/5a.sql`
 
-- [ ] Complete `exercises/5b.sql`
+- [x] Complete `exercises/5b.sql`
 
 ## Exercise 3: Grouped aggregates
 
-- [ ] Read the docs on
+- [x] Read the docs on
       [grouped aggregates](https://tech-docs.corndel.com/sql/grouped-aggregates.html)
 
 - [ ] Complete `exercises/6a.sql`
