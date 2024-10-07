@@ -99,7 +99,7 @@ INSERT INTO users VALUES(98, 'Leann_Langworth', 'Leann', 'Langworth', 'Leann_Lan
 INSERT INTO users VALUES(99, 'Jerel.Maggio', 'Jerel', 'Maggio', 'Jerel_Maggio17@yahoo.com', 'https://avatars.githubusercontent.com/u/21712947', '9hHOJJCULIxivar');
 INSERT INTO users VALUES(100, 'Sallie.Hagenes', 'Sallie', 'Hagenes', 'Sallie.Hagenes@gmail.com', 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1185.jpg', 'sJ3kPaEWolFEq08');
 INSERT INTO users VALUES(101, 'Elian_Tillman', 'Elian', 'Tillman', 'Elian.Tillman58@hotmail.com', 'https://avatars.githubusercontent.com/u/41733370', 'ms4wF5JwIdzgDSZ');
-INSERT INTO users VALUES(102, 'Levi.OConnell60', 'Levi', 'O'Connell', 'Levi.OConnell@gmail.com', 'https://avatars.githubusercontent.com/u/29120355', 'Vm3ln4OL666n2uk');
+INSERT INTO users VALUES(102, 'Levi.OConnell60', 'Levi', 'O''Connell', 'Levi.OConnell@gmail.com', 'https://avatars.githubusercontent.com/u/29120355', 'Vm3ln4OL666n2uk');
 INSERT INTO users VALUES(103, 'Peyton.Kuhn85', 'Peyton', 'Kuhn', 'Peyton.Kuhn60@yahoo.com', 'https://avatars.githubusercontent.com/u/32721356', 'frxcwG3kNNlR71x');
 INSERT INTO users VALUES(104, 'Cade.Heidenreich', 'Cade', 'Heidenreich', 'Cade_Heidenreich50@yahoo.com', 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/521.jpg', 'XU_yOeCeEDmzHCt');
 INSERT INTO users VALUES(105, 'Einar_Thompson94', 'Einar', 'Thompson', 'Einar.Thompson@yahoo.com', 'https://avatars.githubusercontent.com/u/85374554', 'U0p4pdJoT0hyqAg');
@@ -133,7 +133,7 @@ INSERT INTO users VALUES(132, 'Green_Corwin36', 'Green', 'Corwin', 'Green.Corwin
 INSERT INTO users VALUES(133, 'Jessie.Miller', 'Jessie', 'Miller', 'Jessie_Miller21@hotmail.com', 'https://avatars.githubusercontent.com/u/47275309', 'VnUnzUp3QdQTITN');
 INSERT INTO users VALUES(134, 'Natasha.Ernser', 'Natasha', 'Ernser', 'Natasha_Ernser17@yahoo.com', 'https://avatars.githubusercontent.com/u/81066767', 'zqOYBSh8XUKQkxA');
 INSERT INTO users VALUES(135, 'Etha_Kerluke49', 'Etha', 'Kerluke', 'Etha.Kerluke@hotmail.com', 'https://avatars.githubusercontent.com/u/57963547', 'tIfa66Juv5BMW32');
-INSERT INTO users VALUES(136, 'Dangelo_Shields85', 'D'angelo', 'Shields', 'Dangelo_Shields21@gmail.com', 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1215.jpg', 'mNO8K_hiKh8pt0E');
+INSERT INTO users VALUES(136, 'Dangelo_Shields85', 'D''angelo', 'Shields', 'Dangelo_Shields21@gmail.com', 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1215.jpg', 'mNO8K_hiKh8pt0E');
 INSERT INTO users VALUES(137, 'Carrie_Mayer66', 'Carrie', 'Mayer', 'Carrie.Mayer@gmail.com', 'https://avatars.githubusercontent.com/u/34078339', 'EMQ6p64_BmBu7Yn');
 INSERT INTO users VALUES(138, 'Lelah.Treutel19', 'Lelah', 'Treutel', 'Lelah.Treutel50@hotmail.com', 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/953.jpg', 'EVW2Iloc4jeuUry');
 INSERT INTO users VALUES(139, 'Kenna_Yundt', 'Kenna', 'Yundt', 'Kenna.Yundt@yahoo.com', 'https://avatars.githubusercontent.com/u/52860781', 'rG99TCYm80JkY1U');
@@ -196,5 +196,5 @@ INSERT INTO users VALUES(195, 'Mozelle.Heidenreich-Kulas', 'Mozelle', 'Heidenrei
 INSERT INTO users VALUES(196, 'Hoyt.Collins', 'Hoyt', 'Collins', 'Hoyt.Collins97@gmail.com', 'https://avatars.githubusercontent.com/u/57951842', 'xB9I0zNmpq1GQTq');
 INSERT INTO users VALUES(197, 'Westley.Gusikowski28', 'Westley', 'Gusikowski', 'Westley_Gusikowski18@gmail.com', 'https://avatars.githubusercontent.com/u/64269803', 'aCSvkcMscCa2knQ');
 INSERT INTO users VALUES(198, 'Claud.Leffler', 'Claud', 'Leffler', 'Claud_Leffler39@yahoo.com', 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/62.jpg', '8PY1h0uDJBIIRaI');
-INSERT INTO users VALUES(199, 'Jimmie_Bauch-OKeefe97', 'Jimmie', 'Bauch-O'Keefe', 'Jimmie.Bauch-OKeefe@yahoo.com', 'https://avatars.githubusercontent.com/u/14380146', 'g4TSyU2017Q8R7a');
+INSERT INTO users VALUES(199, 'Jimmie_Bauch-OKeefe97', 'Jimmie', 'Bauch-O''Keefe', 'Jimmie.Bauch-OKeefe@yahoo.com', 'https://avatars.githubusercontent.com/u/14380146', 'g4TSyU2017Q8R7a');
 INSERT INTO users VALUES(200, 'Maurice.Sauer', 'Maurice', 'Sauer', 'Maurice.Sauer@yahoo.com', 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1185.jpg', 'BBysIOo0wQsKtDu');

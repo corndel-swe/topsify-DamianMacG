@@ -34,12 +34,12 @@ public class Main {
                     String insertStatement = String.format(
                             "INSERT INTO users VALUES(%d, '%s', '%s', '%s', '%s', '%s', '%s');",
                             user.getId(),
-                            user.getUsername(),
-                            user.getFirst_name(),
-                            user.getLast_name(),
-                            user.getEmail(),
-                            user.getAvatar(),
-                            user.getPassword()
+                            escapeSingleQuotes(user.getUsername()),
+                            escapeSingleQuotes(user.getFirst_name()),
+                            escapeSingleQuotes(user.getLast_name()),
+                            escapeSingleQuotes(user.getEmail()),
+                            escapeSingleQuotes(user.getAvatar()),
+                            escapeSingleQuotes(user.getPassword())
                     );
                     writer.write(insertStatement);
                     writer.newLine();
@@ -51,6 +51,9 @@ public class Main {
         } catch (IOException e) {
             e.printStackTrace();
         }
+    }
+    private static String escapeSingleQuotes(String value) {
+        return value.replace("'", "''"); // Replace single quote with two single quotes
     }
 }
 
