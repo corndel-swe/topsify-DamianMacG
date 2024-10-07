@@ -3,7 +3,9 @@ package org.example;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
+import java.io.BufferedWriter;
 import java.io.File;
+import java.io.FileWriter;
 import java.io.IOException;
 import java.nio.file.Path;
 import java.nio.file.Paths;
@@ -23,15 +25,28 @@ public class Main {
             // Read the JSON file and convert it to a List of User objects
             List<User> users = objectMapper.readValue(path.toFile(), new TypeReference<List<User>>() {});
 
-            for (User user : users) {
-                System.out.println("ID: " + user.getId());
-                System.out.println("Username: " + user.getUsername());
-                System.out.println("First Name: " + user.getFirst_name());
-                System.out.println("Last Name: " + user.getLast_name());
-                System.out.println("Email: " + user.getEmail());
-                System.out.println("Avatar: " + user.getAvatar());
-                System.out.println("Password: " + user.getPassword());
-                System.out.println("----------");
+            // Create the full path until I find out how to get short one working
+            Path sqlPath = Paths.get("/home/damian/Desktop/Intellij-Coursework/topsify-DamianMacG/db/seeds/users.sql");
+
+            // Write the INSERT statements to the SQL file using BufferedWriter
+            try (BufferedWriter writer = new BufferedWriter(new FileWriter(sqlPath.toFile()))) {
+                for (User user : users) {
+                    String insertStatement = String.format(
+                            "INSERT INTO users VALUES(%d, '%s', '%s', '%s', '%s', '%s', '%s');",
+                            user.getId(),
+                            user.getUsername(),
+                            user.getFirst_name(),
+                            user.getLast_name(),
+                            user.getEmail(),
+                            user.getAvatar(),
+                            user.getPassword()
+                    );
+                    writer.write(insertStatement);
+                    writer.newLine();
+                }
+
+                // Let's print and see if it worked!
+                System.out.println("SQL INSERT statements written to " + sqlPath.toAbsolutePath());
             }
         } catch (IOException e) {
             e.printStackTrace();
