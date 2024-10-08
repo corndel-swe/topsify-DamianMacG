@@ -1,4 +1,4 @@
-
+-- We create the tables
 CREATE TABLE playlists (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     user_id INTEGER,

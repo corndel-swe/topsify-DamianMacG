@@ -1,10 +1,10 @@
--- First we create the table
+-- Inserting sample data into the tables
 INSERT INTO playlists (user_id, name) VALUES
 (1, 'Chill Vibes'),
 (1, 'Workout Jams'),
 (2, 'Top Hits 2024');
 
--- Inserting sample data
+
 INSERT INTO playlist_tracks (playlist_id, track_id) VALUES
 (1, 'track_id_1'),
 (1, 'track_id_2'),
