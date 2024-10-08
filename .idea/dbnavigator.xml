@@ -24,9 +24,7 @@
     <last-used-providers />
   </component>
   <component name="DBNavigator.Project.DatabaseFileManager">
-    <open-files>
-      <object connection-id="370e97b3-6961-4712-9070-831de4fd108b" object-ref="schemas/main/tables/artists" />
-    </open-files>
+    <open-files />
   </component>
   <component name="DBNavigator.Project.DatabaseSessionManager">
     <connection id="370e97b3-6961-4712-9070-831de4fd108b" />
@@ -42,16 +40,17 @@
     <retain-sticky-names value="false" />
   </component>
   <component name="DBNavigator.Project.FileConnectionMappingManager">
-    <mapping file-url="file://$PROJECT_DIR$/exercises/1a.sql" connection-id="370e97b3-6961-4712-9070-831de4fd108b" session-id="MAIN" current-schema="main" />
     <mapping file-url="file://$PROJECT_DIR$/exercises/4b.sql" connection-id="370e97b3-6961-4712-9070-831de4fd108b" session-id="MAIN" current-schema="main" />
-    <mapping file-url="file://$PROJECT_DIR$/exercises/2b.sql" connection-id="370e97b3-6961-4712-9070-831de4fd108b" session-id="MAIN" current-schema="main" />
-    <mapping file-url="file://$PROJECT_DIR$/exercises/4a.sql" connection-id="370e97b3-6961-4712-9070-831de4fd108b" session-id="MAIN" current-schema="main" />
     <mapping file-url="file://$PROJECT_DIR$/exercises/6a.sql" connection-id="370e97b3-6961-4712-9070-831de4fd108b" session-id="MAIN" current-schema="main" />
-    <mapping file-url="file://$PROJECT_DIR$/exercises/5b.sql" connection-id="370e97b3-6961-4712-9070-831de4fd108b" session-id="MAIN" current-schema="main" />
     <mapping file-url="file://$PROJECT_DIR$/exercises/1b.sql" connection-id="370e97b3-6961-4712-9070-831de4fd108b" session-id="MAIN" current-schema="main" />
     <mapping file-url="file://$PROJECT_DIR$/exercises/5a.sql" connection-id="370e97b3-6961-4712-9070-831de4fd108b" session-id="MAIN" current-schema="main" />
-    <mapping file-url="file://$PROJECT_DIR$/exercises/6b.sql" connection-id="370e97b3-6961-4712-9070-831de4fd108b" session-id="MAIN" current-schema="main" />
     <mapping file-url="file://$PROJECT_DIR$/exercises/3a.sql" connection-id="370e97b3-6961-4712-9070-831de4fd108b" session-id="MAIN" current-schema="main" />
+    <mapping file-url="file://$PROJECT_DIR$/queries/chart-1.sql" connection-id="370e97b3-6961-4712-9070-831de4fd108b" session-id="MAIN" current-schema="main" />
+    <mapping file-url="file://$PROJECT_DIR$/exercises/1a.sql" connection-id="370e97b3-6961-4712-9070-831de4fd108b" session-id="MAIN" current-schema="main" />
+    <mapping file-url="file://$PROJECT_DIR$/exercises/4a.sql" connection-id="370e97b3-6961-4712-9070-831de4fd108b" session-id="MAIN" current-schema="main" />
+    <mapping file-url="file://$PROJECT_DIR$/exercises/2b.sql" connection-id="370e97b3-6961-4712-9070-831de4fd108b" session-id="MAIN" current-schema="main" />
+    <mapping file-url="file://$PROJECT_DIR$/exercises/5b.sql" connection-id="370e97b3-6961-4712-9070-831de4fd108b" session-id="MAIN" current-schema="main" />
+    <mapping file-url="file://$PROJECT_DIR$/exercises/6b.sql" connection-id="370e97b3-6961-4712-9070-831de4fd108b" session-id="MAIN" current-schema="main" />
     <mapping file-url="file://$PROJECT_DIR$/exercises/3b.sql" connection-id="370e97b3-6961-4712-9070-831de4fd108b" session-id="MAIN" current-schema="main" />
   </component>
   <component name="DBNavigator.Project.ObjectQuickFilterManager">
