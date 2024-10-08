@@ -2,7 +2,7 @@
 
 ## Exercise 1: Writing data
 
-- [ ] Read through
+- [x] Read through
       [writing data](https://tech-docs.corndel.com/sql/writing-data.html)
 
 - [ ] Complete `exercises/7a.sql`
