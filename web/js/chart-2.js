@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', async () => {
   )
 
   try {
-    const data = await fetchChartData('/reports/chart-2.json')
+    const data = await fetchChartData('../../reports/chart-2.json')
     const chartDataByArtist = organizeDataByArtist(data)
     createRadarCharts(chartsContainer, chartDataByArtist)
   } catch (error) {

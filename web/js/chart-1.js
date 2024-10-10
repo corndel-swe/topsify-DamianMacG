@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', async () => {
   const ctx = document.getElementById('explicitTracksChart').getContext('2d')
 
   try {
-    const data = await fetchChartData('/reports/chart-1.json')
+    const data = await fetchChartData('../../reports/chart-1.json')
     createBarChart(ctx, data)
   } catch (error) {
     console.error('Error fetching chart data:', error)

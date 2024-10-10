@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', async () => {
   const ctx = document.getElementById('loudnessChart').getContext('2d')
 
   try {
-    const data = await fetchChartData('/reports/chart-3.json')
+    const data = await fetchChartData('../../reports/chart-3.json')
     createScatterChart(ctx, data)
   } catch (error) {
     console.error('Error fetching chart data:', error)
