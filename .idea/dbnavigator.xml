@@ -46,6 +46,7 @@
     <mapping file-url="file://$PROJECT_DIR$/exercises/6a.sql" connection-id="370e97b3-6961-4712-9070-831de4fd108b" session-id="MAIN" current-schema="main" />
     <mapping file-url="file://$PROJECT_DIR$/exercises/1b.sql" connection-id="370e97b3-6961-4712-9070-831de4fd108b" session-id="MAIN" current-schema="main" />
     <mapping file-url="file://$PROJECT_DIR$/exercises/5a.sql" connection-id="370e97b3-6961-4712-9070-831de4fd108b" session-id="MAIN" current-schema="main" />
+    <mapping file-url="file://$PROJECT_DIR$/exercises/9a.sql" connection-id="370e97b3-6961-4712-9070-831de4fd108b" session-id="MAIN" current-schema="main" />
     <mapping file-url="file://$PROJECT_DIR$/queries/chart-3.sql" connection-id="370e97b3-6961-4712-9070-831de4fd108b" session-id="MAIN" current-schema="main" />
     <mapping file-url="file://$PROJECT_DIR$/exercises/3a.sql" connection-id="370e97b3-6961-4712-9070-831de4fd108b" session-id="MAIN" current-schema="main" />
     <mapping file-url="file://$PROJECT_DIR$/queries/chart-1.sql" connection-id="370e97b3-6961-4712-9070-831de4fd108b" session-id="MAIN" current-schema="main" />
@@ -53,7 +54,9 @@
     <mapping file-url="file://$PROJECT_DIR$/exercises/4a.sql" connection-id="370e97b3-6961-4712-9070-831de4fd108b" session-id="MAIN" current-schema="main" />
     <mapping file-url="file://$PROJECT_DIR$/exercises/2b.sql" connection-id="370e97b3-6961-4712-9070-831de4fd108b" session-id="MAIN" current-schema="main" />
     <mapping file-url="file://$PROJECT_DIR$/exercises/5b.sql" connection-id="370e97b3-6961-4712-9070-831de4fd108b" session-id="MAIN" current-schema="main" />
+    <mapping file-url="file://$PROJECT_DIR$/exercises/9b.sql" connection-id="370e97b3-6961-4712-9070-831de4fd108b" session-id="MAIN" current-schema="main" />
     <mapping file-url="file://$PROJECT_DIR$/db/migrations/playlist_migration.sql" connection-id="370e97b3-6961-4712-9070-831de4fd108b" session-id="MAIN" current-schema="main" />
+    <mapping file-url="file://$PROJECT_DIR$/db/seeds/playlist_model.sql" connection-id="370e97b3-6961-4712-9070-831de4fd108b" session-id="MAIN" current-schema="main" />
     <mapping file-url="file://$PROJECT_DIR$/exercises/6b.sql" connection-id="370e97b3-6961-4712-9070-831de4fd108b" session-id="MAIN" current-schema="main" />
     <mapping file-url="file://$PROJECT_DIR$/exercises/3b.sql" connection-id="370e97b3-6961-4712-9070-831de4fd108b" session-id="MAIN" current-schema="main" />
   </component>

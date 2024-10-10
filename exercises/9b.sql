@@ -15,3 +15,6 @@ CREATE TABLE track_genres (
     FOREIGN KEY (track_id) REFERENCES tracks(id),
     FOREIGN KEY (genre_id) REFERENCES genres(id)
 );
+
+
+-- Merge comment
