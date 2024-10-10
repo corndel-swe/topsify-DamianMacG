@@ -10,7 +10,7 @@ JOIN
 JOIN
     artists ON albums.artist_id = artists.id
 WHERE
-    tracks.explicit = 1  -- Assuming 'explicit' is a column in tracks
+    tracks.explicit = 1
 GROUP BY
     artists.name
 HAVING
