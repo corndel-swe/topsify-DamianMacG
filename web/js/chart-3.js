@@ -20,7 +20,8 @@ async function fetchChartData(url) {
 function createScatterChart(ctx, data) {
   const chartData = data.map(album => ({
     x: new Date(album.release_date), // Ensure date parsing
-    y: album.average_loudness
+    y: album.average_loudness,
+    albumName: album.name // Include album name in data
   }))
 
   new Chart(ctx, {
@@ -61,9 +62,10 @@ function createScatterChart(ctx, data) {
         tooltip: {
           callbacks: {
             label: function (context) {
-              const label = context.dataset.label || ''
-              const { x, y } = context.raw
-              return `${label}: (${x.getFullYear()}, ${y.toFixed(2)})`
+              const pointData = context.dataset.data[context.dataIndex] // Access the point data
+              const albumName = pointData.albumName // Get the album name
+              const { x, y } = pointData // Get the x (release date) and y (loudness) values
+              return `${albumName}: (${x.getFullYear()}, ${y.toFixed(2)})` // Show album name and data
             }
           }
         }
