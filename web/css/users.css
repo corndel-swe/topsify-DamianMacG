@@ -1,0 +1,47 @@
+.users {
+  padding: 20px;
+  text-align: center;
+  width: 100%;
+}
+
+.users__title {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: var(--color-primary);
+}
+
+.users__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.user-card {
+  background-color: var(--color-accent);
+  color: var(--color-secondary);
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.user-card:hover {
+  transform: translateY(-10px);
+}
+
+.user-card__name {
+  font-size: 1.25rem;
+  margin-bottom: 10px;
+}
+
+.user-card__email {
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.user-card__avatar {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}

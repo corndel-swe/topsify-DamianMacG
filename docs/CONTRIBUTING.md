@@ -1,4 +1,4 @@
-# Contributing
+git checkout# Contributing
 
 ## Website
 
